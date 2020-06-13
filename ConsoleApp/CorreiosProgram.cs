@@ -72,7 +72,7 @@ namespace ConsoleApp
             // Processar encomendas e gerar arquivo.
             var lstRotas = new List<Rotas>();
 
-            for (int i = 0; i <= 1000; i++) lstRotas.Add(new Rotas("testetete", 2m));
+            lstRotas = _processarRota.Processar(lstTrechos, lstEncomendas);
 
             await ExportarRotas(lstRotas);
 

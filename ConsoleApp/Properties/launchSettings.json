@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\marce\\source\\repos\\TesteCoreNet\\Arquivos\\trechos.txt\" \"C:\\Users\\marce\\source\\repos\\TesteCoreNet\\Arquivos\\encomendas.txt\" \"C:\\Users\\marce\\source\\repos\\TesteCoreNet\\Arquivos\\out1.txt\""
+    }
+  }
+}

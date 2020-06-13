@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Processador;
 using System;
+using System.Linq;
 using System.Runtime.InteropServices;
 
 namespace ConsoleApp
@@ -10,8 +11,16 @@ namespace ConsoleApp
 
         static void Main(string[] args)
         {
-            
-            var b = Builder();
+
+            if (args.Count() != 3)
+            {
+                Console.WriteLine("Parametros inválidos");
+                Console.Read();
+                return;
+            }
+
+
+            var b = Builder(args[0], args[1], args[2]);
 
             b.Main().Wait();
 
@@ -19,7 +28,7 @@ namespace ConsoleApp
         }
 
 
-        private static CorreiosProgram Builder()
+        private static CorreiosProgram Builder(string pathTrechos, string pathEncomendas, string pathRotas)
         {
             UI.IUIHelper uIHelper;
             Logger.ILogger logger;
@@ -39,10 +48,7 @@ namespace ConsoleApp
             escreverArquivoRotas = new EscreverArquivoRotas(logger);
             processarRota = new Processador.ProcessarRota(logger);
 
-            return new CorreiosProgram(uIHelper, logger, lerAquivoTrecho, lerArquivoEncomendas, escreverArquivoRotas, processarRota,
-                @"C:\Users\marce\source\repos\TesteCoreNet\Arquivos\trechos.txt",
-                @"C:\Users\marce\source\repos\TesteCoreNet\Arquivos\encomendas.txt",
-                @"C:\Users\marce\source\repos\TesteCoreNet\Arquivos\rotas.txt");
+            return new CorreiosProgram(uIHelper, logger, lerAquivoTrecho, lerArquivoEncomendas, escreverArquivoRotas, processarRota, pathTrechos,  pathEncomendas,  pathRotas);
 
         }
 

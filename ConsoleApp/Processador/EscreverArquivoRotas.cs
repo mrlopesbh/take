@@ -23,9 +23,9 @@ namespace ConsoleApp.Processador
             {
                 using (var w = new StreamWriter(filePath))
                 {
-                    for (int i = 0; i <= rotas.Count; i++)
+                    for (int i = 0; i < rotas.Count; i++)
                     {
-                        await w.WriteLineAsync($"{rotas[0].Rota} {rotas[0].Tempo}");
+                        await w.WriteLineAsync($"{rotas[i].Rota} {rotas[i].Tempo}");
                     }
                 }
 
