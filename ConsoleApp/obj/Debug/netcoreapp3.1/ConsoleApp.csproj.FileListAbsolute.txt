@@ -1,0 +1,12 @@
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\marce\source\repos\TesteCoreNet\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
