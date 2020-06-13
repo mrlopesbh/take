@@ -78,9 +78,7 @@ namespace ConsoleApp.Processador
 
         private void MontarTodosCaminhos(Caminho caminhoBase, string origem, string destino, decimal tempo)
         {
-        
-            
-
+           
             
         }
 
